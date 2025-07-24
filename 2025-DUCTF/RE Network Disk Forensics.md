@@ -307,11 +307,11 @@ We mount the NBD-backed disk directly to `/mnt`. Since the image contains a raw 
 
 Finally, using File Manager, navigate to the `/mnt` directory and you'll see the remote disk image.
 
-![](./images/network-disk-forensics-1.png)
+![File Manager](./images/network-disk-forensics-1.png)
 
 Opening the `flag.jpg` image in the top-level directory reveals the flag.
 
-![](./images/network-disk-forensics-2.png)
+![Flag](./images/network-disk-forensics-2.png)
 
 ---
 # Files
