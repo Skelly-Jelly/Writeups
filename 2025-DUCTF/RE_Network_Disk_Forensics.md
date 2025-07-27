@@ -1,6 +1,6 @@
 # RE: Network Disk Forensics
 
-## Challenge
+## The Challenge
 
 Dear Jelly,
 
