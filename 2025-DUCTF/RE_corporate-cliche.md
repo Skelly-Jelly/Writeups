@@ -20,7 +20,8 @@ For this challenge, we are given two files:
 
 We can reason that these two files are the executable, and C language source code for said executable. We confirm this by opening `email_server` in a text editor:
 
-![[./images/corporate-cliche-1.png]]
+![Opening the email_server executable in a text editor](./images/corporate-cliche-1.png)
+
 As expected, we see what we expect to see when opening a binary file in a text editor.  The "ELF" at the start of the file confirms that this is a Linux executable (Executable and Linkable Format).
 
 It's time to take a closer look at the `email_server.c` file, since looking at the code will give us clues on how to exploit the program.
@@ -170,6 +171,6 @@ p.interactive()
 ## The Result
 When we executed the script, it successfully logs us in as "admin" and opens a shell. Inside the shell, we find a `flag.txt` file containing the flag:
 
-![[./images/corportate-cliche-2.png]]
+![Executing the exploit](./images/corportate-cliche-2.png)
 ### Conclusion
 This challenge demonstrates the dangers of using unsafe functions like `gets()` and the importance of validating user inputs. It also shows how buffer overflows can be used to manipulate program execution, even in seemingly secure systems.
